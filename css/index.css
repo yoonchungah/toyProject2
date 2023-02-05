@@ -1,0 +1,43 @@
+.container{
+  height: 90vh;
+  max-width: 800px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#number_game_wrap{
+  background-image: url(../img/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  text-align: center;
+  color: #6a9955;
+  padding-top:20%;
+
+}
+.title h2{
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.title p{
+  margin-bottom: 0;
+}
+.title p:last-child{
+  font-size: 14px;
+}
+
+.btns{
+  max-width: 50%;
+  margin: 0 auto;
+}
+#user_input{
+  width: 100%;
+  margin: 2rem 0;
+  border: 0;
+}
+button{
+  padding: 0.5rem 1rem;
+  border: 0;
+}
+#play_button{
+  background-color: #dfd7b5;
+}
