@@ -64,8 +64,12 @@ function play(){
 function reset(){
   userInput.value = '';
   pickRandomNum();
-
-  resultArea.textContent='1부터 100까지 숫자를 맞춰보세요'
+  gameOver = false;
+  playButton.disabled = false;
+  chances = 5;
+  resultArea.textContent='1부터 100까지 숫자를 맞춰보세요';
+  chanceArea.textContent=`남은 기회는 ${chances}번입니다`;
+  history = [];
 }
 
 
