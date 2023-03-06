@@ -4,7 +4,7 @@ let userInput = document.getElementById('user_input');
 let resultArea = document.getElementById('result_area');
 let chanceArea = document.getElementById('chance_area');
 let resetButton = document.getElementById('reset_button');
-let chances = 5;
+let chances = 7;
 let gameOver = false;
 let history=[];
 
@@ -66,7 +66,7 @@ function reset(){
   pickRandomNum();
   gameOver = false;
   playButton.disabled = false;
-  chances = 5;
+  chances = 7;
   resultArea.textContent='1부터 100까지 숫자를 맞춰보세요';
   chanceArea.textContent=`남은 기회는 ${chances}번입니다`;
   history = [];
